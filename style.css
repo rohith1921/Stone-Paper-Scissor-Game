@@ -1,0 +1,120 @@
+/* .cls {
+    color:rgb(7, 7, 33);
+    background-color: rgb(243, 226, 226);
+    width: 1000px;
+    height: 250px;
+    border: black;
+    text-align: center;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    gap: 3rem;
+}
+
+/* body {
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+} */
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+}
+/* 
+p {
+    color: white;
+    background-color: black;
+} */
+
+.choice {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: rgb(12, 16, 233);
+}
+
+img {
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* #rock {
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+#paper {
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+#scissor {
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+} */
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.Score-Board {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap :5rem;
+}
+
+#user-score,
+#comp-score {
+    font-size: 3rem;
+}
+
+.msgcontainer {
+    margin-top: 4rem;
+
+}
+#msg {
+    
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display :inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
